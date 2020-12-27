@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+        android:id="@+id/time_button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:justifyContent="space_between"
+        app:flexWrap="wrap"
+        app:toggle_selectableAmount="3"
+        app:toggle_requiredAmount="1"
+        app:toggle_selectAnimation="circular_reveal"
+        > <!-- this attribute is from the underlying FlexboxLayout -->
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Bananas"
+            app:toggle_selectedBackgroundColor="#FFC107"/>
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Oranges"
+            app:toggle_selectedBackgroundColor="#FF5722"/>
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Carrots"
+            app:toggle_selectedBackgroundColor="#FF5722"/>
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Apples"
+            app:toggle_selectedBackgroundColor="#E91E63"/>
+
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Pears"
+            app:toggle_selectedBackgroundColor="#4CAF50"/>
+
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Melons"
+            app:toggle_selectedBackgroundColor="#009688"/>
+
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Strawberries"
+            app:toggle_selectedBackgroundColor="#E91E63"/>
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Avocados"
+            app:toggle_selectedBackgroundColor="#4CAF50"/>
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Nuts"
+            app:toggle_selectedBackgroundColor="#794860"/>
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn10"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Cucumbers"
+            app:toggle_selectedBackgroundColor="#009688"/>
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:layout_margin="10dp"
+            android:id="@+id/btn11"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="Wine"
+            app:toggle_selectedBackgroundColor="#673AB7"/>
+
+    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_done"
+        android:text="Done!"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>
